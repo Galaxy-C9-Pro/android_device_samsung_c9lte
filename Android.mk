@@ -21,6 +21,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),gts210velte)
+ifeq ($(TARGET_DEVICE),c9ltechn)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif

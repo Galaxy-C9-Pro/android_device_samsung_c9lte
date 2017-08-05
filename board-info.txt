@@ -1,1 +1,1 @@
-require version-bootloader=T819XXU2BQD1|T819XXU2BQCO
+require version-bootloader=C9000ZCU1AQG1|C9000ZHU1AQE1
