@@ -1,2 +1,2 @@
-add_lunch_combo lineage_c9ltechn-eng
-add_lunch_combo lineage_c9ltechn-userdebug
+add_lunch_combo lineage_c9lte-eng
+add_lunch_combo lineage_c9lte-userdebug

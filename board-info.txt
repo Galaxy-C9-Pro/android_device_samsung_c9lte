@@ -1,1 +1,1 @@
-require version-bootloader=C9000ZCU1AQG1|C9000ZHU1AQE1
+require version-bootloader=C900YZTU1AQC3|C900FDDU1AQG3

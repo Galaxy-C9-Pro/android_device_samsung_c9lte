@@ -18,7 +18,7 @@
 set -e
 
 # Required!
-export DEVICE=c9ltechn
+export DEVICE=c9lte
 export DEVICE_COMMON=msm8976-common
 export VENDOR=samsung
 

@@ -1,4 +1,4 @@
-Device Tree for Samsung Galaxy C9 Pro (C9LTECHN)
+Device Tree for Samsung Galaxy C9 Pro (C9LTE)
 ===========================================
 
 Basic   | Spec Sheet
