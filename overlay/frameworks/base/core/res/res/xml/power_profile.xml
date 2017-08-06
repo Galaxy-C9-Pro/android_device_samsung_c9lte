@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
     <item name="none">0</item>
-    <item name="screen.on">295.3</item>
-    <item name="screen.full">813.9</item>
-    <item name="bluetooth.active">50</item>
-    <item name="bluetooth.on">1.4</item>
-    <item name="wifi.on">2.17</item>
-    <item name="wifi.active">407.9</item>
-    <item name="wifi.scan">408.9</item>
-    <item name="dsp.audio">41.9</item>
-    <item name="dsp.video">195</item>
+    <item name="screen.on">49</item>
+    <item name="screen.full">377</item>
+    <item name="bluetooth.active">127</item>
+    <item name="bluetooth.on">2</item>
+    <item name="wifi.on">1</item>
+    <item name="wifi.active">601</item>
+    <item name="wifi.scan">286</item>
+    <item name="dsp.audio">47</item>
+    <item name="dsp.video">207</item>
+    <item name="radio.active">186</item>
+    <item name="radio.scanning">140</item>
     <item name="gps.on">55</item>
+    <array name="radio.on">
+        <value>6.8</value>
+    </array>
     <array name="cpu.clusters.cores">
         <value>4</value>
         <value>4</value>
@@ -39,34 +44,35 @@
         <value>1612800</value>
         <value>1747200</value>
         <value>1804800</value>
+        <value>1958400</value>
     </array>
-    <item name="cpu.idle">4.77</item>
+    <item name="cpu.idle">3.8</item>
     <item name="cpu.awake">11.1</item>
     <item name="wakeup.power">0.15</item>
     <array name="cpu.active.cluster0">
         <value>54</value>
-        <value>66</value>
+        <value>64</value>
+        <value>81</value>
         <value>94</value>
-        <value>99</value>
-        <value>131</value>
-        <value>148</value>
-        <value>157</value>
-        <value>164</value>
+        <value>134</value>
+        <value>142</value>
+        <value>147</value>
+        <value>154</value>
     </array>
     <array name="cpu.active.cluster1">
         <value>89</value>
-        <value>203</value>
-        <value>249</value>
-        <value>264</value>
-        <value>273</value>
-        <value>278</value>
-        <value>305</value>
+        <value>200</value>
+        <value>258</value>
+        <value>270</value>
+        <value>281</value>
+        <value>293</value>
+        <value>308</value>
+        <value>321</value>
         <value>336</value>
-        <value>349</value>
-        <value>388</value>
-        <value>501</value>
-        <value>617</value>
-        <value>688</value>
+        <value>356</value>
+        <value>601</value>
+        <value>664</value>
+        <value>712</value>
     </array>
     <item name="battery.capacity">4000</item>
     <array name="wifi.batchedscan">
