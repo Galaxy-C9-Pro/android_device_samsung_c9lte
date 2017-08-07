@@ -29,7 +29,7 @@ BOARD_RIL_CLASS := ../../../device/samsung/c9lte/ril
 
 # RIL
 TARGET_RIL_VARIANT := caf
-#BOARD_PROVIDES_LIBRIL := true
+BOARD_PROVIDES_LIBRIL := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := msm8976_sec_defconfig
