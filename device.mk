@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 
-# call the proprietary setup
-$(call inherit-product-if-exists, vendor/samsung/c9lte/c9lte-vendor.mk)
-
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -69,3 +66,5 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from msm8976-common
 $(call inherit-product, device/samsung/msm8976-common/msm8976.mk)
+# call the proprietary setup
+$(call inherit-product, vendor/samsung/c9lte/c9lte-vendor.mk)
