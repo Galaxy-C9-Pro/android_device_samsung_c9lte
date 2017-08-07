@@ -8,7 +8,7 @@ etc/Headset_cal.acdb
 etc/Speaker_cal.acdb
 
 # NFC
-etc/nfc/sec_s3nm81_rfreg.com
+etc/nfc/sec_s3nrn81_rfreg.bin
 vendor/firmware/nfc/sec_s3nrn81_firmware.bin
 
 # ADSP
@@ -58,7 +58,7 @@ vendor/lib/libflash_pmic.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
-vendor/lib/libmm-qcamera.so
+lib/libmm-qcamera.so
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_dcrf.so
@@ -87,7 +87,7 @@ vendor/lib/libmmcamera_eztune_module.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_hdr_gb_lib.so
 vendor/lib/libmmcamera_imglib.so
-vendor/lib/libmmcamera_interface.so
+lib/libmmcamera_interface.so
 vendor/lib/libmmcamera_isp_abf40.so
 vendor/lib/libmmcamera_isp_bcc40.so
 vendor/lib/libmmcamera_isp_be_stats44.so
@@ -139,15 +139,9 @@ vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libmmcamera_ubifocus_lib.so
 vendor/lib/libmmcamera_vpu_module.so
 vendor/lib/libmmjpeg.so
-vendor/lib/libmmjpeg_interface.so
-vendor/lib/libqomx_core.so
-vendor/lib/libsblcv.so
-vendor/lib/libts_detected_face_hal.so
-vendor/lib/libts_face_beautify_hal.so
-vendor/lib/libmmjpeg.so
-vendor/lib/libmmjpeg_interface.so
-vendor/lib/libqomx_core.so
-vendor/lib/libsblcv.so
+lib/libmmjpeg_interface.so
+lib/libqomx_core.so
+lib/libsblcv.so
 vendor/lib/libts_detected_face_hal.so
 vendor/lib/libts_face_beautify_hal.so
 
@@ -208,10 +202,10 @@ bin/tftp_server
 etc/data/dsi_config.xml
 etc/data/netmgr_config.xml
 etc/data/qmi_config.xml
-lib64/libfloatingfeature.so
+#lib64/libfloatingfeature.so
 lib64/libril.so
 lib64/libsec-ril.so
-lib/libfloatingfeature.so
+#lib/libfloatingfeature.so
 lib/libril.so
 lib/libsec-ril.so
 lib/libsec-ril-dsds.so
@@ -230,10 +224,8 @@ vendor/lib/libnetmgr.so
 vendor/lib/libxml.so
 
 # Sensors
-lib64/hw/sensors.msm8976.so
-lib/hw/sensors.msm8976.so
-lib64/hw/sensorhub.msm8976.so
-lib/hw/sensorhub.msm8976.so
+lib64/hw/sensors.MSM8976.so
+lib/hw/sensors.MSM8976.so
 vendor/lib64/libsensor1.so
 vendor/lib/libsensor1.so
 
