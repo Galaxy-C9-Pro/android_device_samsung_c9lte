@@ -7,6 +7,10 @@ etc/Hdmi_cal.acdb
 etc/Headset_cal.acdb
 etc/Speaker_cal.acdb
 
+# NFC
+etc/nfc/sec_s3nm81_rfreg.com
+vendor/firmware/nfc/sec_s3nrn81_firmware.bin
+
 # Peripheral manager
 bin/pm-proxy
 bin/pm-service
@@ -54,3 +58,16 @@ lib/hw/sensors.msm8976.so
 vendor/lib64/libsensor1.so
 #vendor/lib64/libyasalgo.so
 vendor/lib/libsensor1.so
+
+# WiFi Firmware
+etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
+#etc/firmware/bdwlan30_R01.bin
+#etc/firmware/otp30.bin
+#etc/firmware/qwlan30.bin
+#etc/firmware/utf30.bin
+#etc/firmware/utfbd30.bin
+#etc/firmware/utfbd30_R01.bin
+
+##
+etc/firmware/leia_pm4_470.fw
+etc/firmware/leia_pfp_470.fw
