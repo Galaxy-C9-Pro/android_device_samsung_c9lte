@@ -7,6 +7,11 @@ etc/Hdmi_cal.acdb
 etc/Headset_cal.acdb
 etc/Speaker_cal.acdb
 
+# Bluetooth
+bin/btnvtool
+bin/wcnss_filter
+vendor/lib64/libbtnv.so
+
 # NFC
 etc/nfc/sec_s3nm81_rfreg.com
 vendor/firmware/nfc/sec_s3nrn81_firmware.bin
