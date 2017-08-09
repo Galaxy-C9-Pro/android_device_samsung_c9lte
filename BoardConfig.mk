@@ -29,7 +29,7 @@ BOARD_RIL_CLASS := ../../../device/samsung/c9lte/ril
 
 # RIL
 TARGET_RIL_VARIANT := caf
-#BOARD_PROVIDES_LIBRIL := true
+BOARD_PROVIDES_LIBRIL := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := msm8976_sec_defconfig
@@ -48,7 +48,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
-+# Wifi
+# Wifi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_HAS_QCOM_WLAN_SDK := true
 BOARD_WLAN_DEVICE := qcwcn
@@ -60,6 +60,8 @@ WIFI_DRIVER_FW_PATH_AP := "ap"
 WIFI_DRIVER_FW_PATH_STA := "sta"
 WIFI_DRIVER_FW_PATH_P2P := "p2p"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
+WIFI_DRIVER_MODULE_PATH     := "/system/lib/modules/wlan.ko"
+WIFI_DRIVER_MODULE_NAME     := "wlan"
 
 # inherit from the proprietary version
 -include vendor/samsung/c9lte/BoardConfigVendor.mk

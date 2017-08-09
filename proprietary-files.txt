@@ -7,6 +7,11 @@ etc/Hdmi_cal.acdb
 etc/Headset_cal.acdb
 etc/Speaker_cal.acdb
 
+# Bluetooth
+bin/btnvtool
+bin/wcnss_filter
+vendor/lib64/libbtnv.so
+
 # NFC
 etc/nfc/sec_s3nrn81_rfreg.bin
 vendor/firmware/nfc/sec_s3nrn81_firmware.bin
@@ -52,6 +57,8 @@ etc/camera/O16QL_s5k3p8sx_chromatix.xml
 etc/M16QL_s5k3p8sx_ak7372_module_info.xml
 etc/O16QL_s5k3p8sx_module_info.xml
 lib/hw/camera.msm8952.so:lib/hw/camera.vendor.msm8952.so
+lib/libuniplugin.so
+lib64/libuniplugin.so
 vendor/lib/libfastcvadsp_stub.so
 vendor/lib/libfastcvopt.so
 vendor/lib/libflash_pmic.so
