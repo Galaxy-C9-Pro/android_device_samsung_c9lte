@@ -13,8 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# inherit from common msm8976-common
--include device/samsung/msm8976-common/BoardConfigCommon.mk
+# inherit from common c9lte-common
+-include device/samsung/c9lte-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/samsung/c9lte
 

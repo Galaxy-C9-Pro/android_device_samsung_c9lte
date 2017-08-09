@@ -64,7 +64,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf
 
-# Inherit from msm8976-common
-$(call inherit-product, device/samsung/msm8976-common/msm8976.mk)
+# Inherit from c9lte-common
+$(call inherit-product, device/samsung/c9lte-common/msm8976.mk)
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/c9lte/c9lte-vendor.mk)

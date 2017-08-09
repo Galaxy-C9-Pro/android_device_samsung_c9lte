@@ -1,7 +1,7 @@
 [
   {
     "repository": "android_device_samsung_msm8976-common",
-    "target_path": "device/samsung/msm8976-common"
+    "target_path": "device/samsung/c9lte-common"
   }
   {
     "repository": "android_device_qcom_common",
