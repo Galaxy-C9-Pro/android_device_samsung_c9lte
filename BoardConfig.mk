@@ -24,13 +24,6 @@ TARGET_OTA_ASSERT_DEVICE := c9lte
 # Board
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
-# Telephony
-BOARD_RIL_CLASS := ../../../device/samsung/c9lte/ril
-
-# RIL
-TARGET_RIL_VARIANT := caf
-BOARD_PROVIDES_LIBRIL := true
-
 # Kernel
 TARGET_KERNEL_CONFIG := msm8976_sec_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := msm8976_sec_c9lte_swa_defconfig
@@ -48,20 +41,8 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
-# Wifi
-BOARD_HAS_QCOM_WLAN := true
-BOARD_HAS_QCOM_WLAN_SDK := true
-BOARD_WLAN_DEVICE := qcwcn
-BOARD_HOSTAPD_DRIVER := NL80211
-BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_$(BOARD_WLAN_DEVICE)
-BOARD_WPA_SUPPLICANT_DRIVER := NL80211
-BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_$(BOARD_WLAN_DEVICE)
-WIFI_DRIVER_FW_PATH_AP := "ap"
-WIFI_DRIVER_FW_PATH_STA := "sta"
-WIFI_DRIVER_FW_PATH_P2P := "p2p"
-WPA_SUPPLICANT_VERSION := VER_0_8_X
-WIFI_DRIVER_MODULE_PATH     := "/system/lib/modules/wlan.ko"
-WIFI_DRIVER_MODULE_NAME     := "wlan"
+# Telephony
+BOARD_RIL_CLASS := ../../../device/samsung/c9lte-common/ril
 
 # inherit from the proprietary version
 -include vendor/samsung/c9lte/BoardConfigVendor.mk
