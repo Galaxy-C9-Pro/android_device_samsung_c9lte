@@ -44,6 +44,7 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 # RIL
 #TARGET_RIL_VARIANT := caf
 BOARD_PROVIDES_LIBRIL := true
+BOARD_PROVIDES_RILD := true
 
 # Telephony
 BOARD_RIL_CLASS := ../../../device/samsung/c9lte-common/ril
