@@ -4,6 +4,7 @@ bin/qmuxd
 bin/radish
 bin/rmt_storage
 bin/tftp_server
+bin/rild
 etc/data/dsi_config.xml
 etc/data/netmgr_config.xml
 etc/data/qmi_config.xml
@@ -27,3 +28,5 @@ vendor/lib/libconfigdb.so
 vendor/lib/libmdmdetect.so
 vendor/lib/libnetmgr.so
 vendor/lib/libxml.so
+lib/libreference-ril
+lib64/libreference-ril

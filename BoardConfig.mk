@@ -41,6 +41,10 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
+# RIL
+#TARGET_RIL_VARIANT := caf
+BOARD_PROVIDES_LIBRIL := true
+
 # Telephony
 BOARD_RIL_CLASS := ../../../device/samsung/c9lte-common/ril
 
