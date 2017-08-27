@@ -25,9 +25,7 @@ TARGET_OTA_ASSERT_DEVICE := c9lte
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
 # Kernel
-TARGET_KERNEL_CONFIG := msm8976_sec_defconfig
-TARGET_KERNEL_VARIANT_CONFIG := msm8976_sec_c9lte_swa_defconfig
-TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
+TARGET_KERNEL_CONFIG := lineage_c9pro_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432
