@@ -1,1 +1,6 @@
 # put specific c9lte props here
+
+# RIL
+DEVICE_PROVISIONED=1
+ro.multisim.set_audio_params=true
+ro.telephony.ril_class=c9lteRIL

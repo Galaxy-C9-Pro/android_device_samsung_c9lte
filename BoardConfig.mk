@@ -21,6 +21,9 @@ DEVICE_PATH := device/samsung/c9lte
 # Assert
 TARGET_OTA_ASSERT_DEVICE := c9lte
 
+# Includes
+TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
+
 # Board
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
@@ -37,12 +40,10 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # RIL
-#TARGET_RIL_VARIANT := caf
+BOARD_RIL_CLASS := ../../../device/samsung/c9lte/ril
 BOARD_PROVIDES_LIBRIL := true
-BOARD_PROVIDES_RILD := true
-
-# Telephony
-BOARD_RIL_CLASS := ../../../device/samsung/c9lte-common/ril
+BOARD_MODEM_TYPE := xmm7260
+SIM_COUNT := 2
 
 # inherit from the proprietary version
 -include vendor/samsung/c9lte/BoardConfigVendor.mk
