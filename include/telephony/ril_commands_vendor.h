@@ -35,12 +35,12 @@
     {RIL_REQUEST_ENTER_SIM_PERSO, dispatchVoid, responseVoid}, // 10018
     {RIL_REQUEST_SEND_ENCODED_USSD, dispatchVoid, responseVoid}, // 10019
     {RIL_REQUEST_CDMA_SEND_SMS_EXPECT_MORE, dispatchVoid, responseVoid}, // 10020
-    {RIL_REQUEST_HANGUP_VT, dispatchVoid, responseVoid}, // 10021
+
     {RIL_REQUEST_HOLD, dispatchVoid, responseVoid}, // 10022
     {RIL_REQUEST_SET_SIM_POWER, dispatchVoid, responseVoid}, // 10023
     {RIL_REQUEST_UICC_GBA_AUTHENTICATE_BOOTSTRAP, dispatchVoid, responseVoid}, // 10025
     {RIL_REQUEST_UICC_GBA_AUTHENTICATE_NAF, dispatchVoid, responseVoid}, // 10026
     {RIL_REQUEST_GET_INCOMING_COMMUNICATION_BARRING, dispatchVoid, responseVoid}, // 10027
-    {RIL_REQUEST_SET_INCOMING_COMMUNICATION_BARRING, dispatchVoid, responseVoid}, // 10028
+
     {RIL_REQUEST_QUERY_CNAP, dispatchVoid, responseVoid}, // 10029
     {RIL_REQUEST_SET_TRANSFER_CALL, dispatchVoid, responseVoid}, // 10030
