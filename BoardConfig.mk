@@ -22,7 +22,7 @@ DEVICE_PATH := device/samsung/c9lte
 TARGET_OTA_ASSERT_DEVICE := c9lte
 
 # Includes
-TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
+TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
 
 # Board
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
