@@ -19,13 +19,10 @@
 DEVICE_PATH := device/samsung/c9lte
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := c9lte
+TARGET_OTA_ASSERT_DEVICE := c9lte,c9ltechn
 
-# Includes
-TARGET_SPECIFIC_HEADER_PATH += $(DEVICE_PATH)/include
-
-# Board
-TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_t0lte
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432
