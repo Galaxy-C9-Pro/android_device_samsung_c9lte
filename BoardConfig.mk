@@ -37,4 +37,4 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
--include vendor/samsung/c9lte/BoardConfigVendor.mk
+#-include vendor/samsung/c9lte/BoardConfigVendor.mk
