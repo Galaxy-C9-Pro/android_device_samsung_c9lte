@@ -39,11 +39,5 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
-# RIL
-BOARD_RIL_CLASS := ../../../device/samsung/c9lte/ril
-BOARD_PROVIDES_LIBRIL := true
-BOARD_MODEM_TYPE := xmm7260
-SIM_COUNT := 2
-
 # inherit from the proprietary version
 -include vendor/samsung/c9lte/BoardConfigVendor.mk
