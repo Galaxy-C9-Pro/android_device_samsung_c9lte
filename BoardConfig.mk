@@ -22,7 +22,7 @@ DEVICE_PATH := device/samsung/c9lte
 TARGET_OTA_ASSERT_DEVICE := c9lte,c9ltechn
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_t0lte
+TARGET_INIT_VENDOR_LIB := libinit_c9lte
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432
