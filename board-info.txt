@@ -1,0 +1,1 @@
+require version-bootloader=C900YZTU1AQC3|C900FDDU1AQG3|C900YZTU1AQG1
