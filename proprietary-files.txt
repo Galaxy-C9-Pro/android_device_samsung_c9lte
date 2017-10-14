@@ -30,3 +30,8 @@ vendor/lib/libnetmgr.so
 vendor/lib/libxml.so
 lib/libreference-ril
 lib64/libreference-ril
+#
+# Wireless
+etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
+etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini
+etc/firmware/wlan/prima/WCNSS_cfg.dat
