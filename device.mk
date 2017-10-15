@@ -22,10 +22,6 @@ DEVICE_PATH := device/samsung/c9lte
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
-# NFC
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/nfc/libnfc-sec.conf:system/etc/libnfc-sec.conf
-
 # Inherit from c9lte-common
 $(call inherit-product, device/samsung/c9lte-common/msm8976.mk)
 # call the proprietary setup
