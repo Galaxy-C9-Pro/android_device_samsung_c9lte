@@ -10,6 +10,7 @@ etc/data/dsi_config.xml
 etc/data/netmgr_config.xml
 etc/data/qmi_config.xml
 lib/libprotobuf-cpp-full.so
+lib/libprotobuf-cpp-lite.so
 lib/libril.so
 lib/libreference-ril.so
 lib/librmnetctl.so
@@ -19,6 +20,7 @@ lib/libsec-ril-dsds.so
 lib/libsecril-client.so
 lib/librilutils.so
 lib64/libprotobuf-cpp-full.so
+lib64/libprotobuf-cpp-lite.so
 lib64/libreference-ril.so
 lib64/libril.so
 lib64/libsecnativefeature.so
@@ -42,7 +44,7 @@ vendor/lib64/libxml.so
 #
 # Wireless
 etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
-etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
+etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini
 etc/firmware/wlan/prima/WCNSS_cfg.dat
 #
 #lib64/libfloatingfeature.so
